@@ -6,7 +6,7 @@ $db_psw = "";
 $link = mysql_connect($server, $db_user, $db_psw);
 mysql_query("set names utf8");
 if ($link) {
-    echo "success";
+//    echo "success";测试git
 } else {
     echo "error";
 }
